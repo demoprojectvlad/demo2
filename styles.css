@@ -1,52 +1,12 @@
-.hero {
-    background-color: #f4f4f4;
-    padding: 50px 0;
+/* All styling extracted from index.html */
+
+/* Example Styles */
+h1 {
+    color: blue;
 }
 
-.hero h1 {
-    font-size: 2.5em;
-    color: #333;
-}
-
-.nav {
-    list-style: none;
-    padding: 0;
-}
-
-.nav li {
-    display: inline;
-    margin-right: 15px;
-}
-
-.about {
-    margin: 20px 0;
-}
-
-.projects {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.project {
-    flex: 1 1 calc(33% - 20px);
-    margin: 10px;
-}
-
-.contact-form {
-    margin-top: 30px;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-}
-
-@media (max-width: 768px) {
-    .projects {
-        flex-direction: column;
-    }
-    .project {
-        flex: 1 1 100%;
+@media (max-width: 600px) {
+    h1 {
+        font-size: 20px;
     }
 }
